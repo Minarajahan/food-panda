@@ -6,11 +6,14 @@ body{
 h1{
     font-size: 60px;
 }
+h2{
+    font-size: 40px;
+}
 h3{
-    color: rgb(236, 158, 11);
+    color: orangered;
 }
 .h1-tag{
-    color:rgb(228, 151, 8);
+    color: rgb(206, 59, 6);
 }
 section{
     display: flex;
@@ -20,7 +23,7 @@ section{
     
 }
 .short-span{
-    color: red;
+    color:olive;
     font-size: 25px;
 }
 .frist-section{
@@ -34,8 +37,33 @@ section{
 .anchor-section-1{
     text-decoration: none;
     background-image: linear-gradient(to bottom right,blue, cyan);
-    border-radius: 5px;
+    padding: 14px 25px;
+    text-align: center;
+    border-radius: 10px;
     color: paleturquoise;
+}
+.second-section{
+    display: flex;
+padding-left: 30px;
+    
+}
+.second-sectio img{
+    width: 100%;
+}
+.anchor-section-2{
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right,orange, red);
+    padding: 14px 25px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
 
-
+}
+.side-position{
+    position: absolute;
+    right: 1px;
+    padding-right: 20px;
+}
+.short-color{
+    color: olive;
 }
