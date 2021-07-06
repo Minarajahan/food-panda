@@ -1,6 +1,32 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto; /* Center the DIV horizontally */
+    text-align: center;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
 }
 
 h1{
@@ -10,21 +36,25 @@ h2{
     font-size: 40px;
 }
 h3{
-    color: orangered;
+    color: olive;
+    font-size:30px ;
+
+}
+#background-id{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .h1-tag{
-    color: rgb(206, 59, 6);
+    color: olive;
 }
-section{
+.flexible-container{
     display: flex;
     padding-left: 20px;
-    background-image: ;
-    background-repeat: no-repeat;
     
 }
 .short-span{
-    color:olive;
-    font-size: 25px;
+    color:red;
+    font-size: 35px;
 }
 .frist-section{
     width: 50%;
@@ -36,11 +66,11 @@ section{
 
 .anchor-section-1{
     text-decoration: none;
-    background-image: linear-gradient(to bottom right,blue, cyan);
-    padding: 14px 25px;
+    background-image: linear-gradient(to bottom right, olive ,red);
+    padding: 10px 20px;
     text-align: center;
     border-radius: 10px;
-    color: paleturquoise;
+    color: black;
 }
 .second-section{
     display: flex;
@@ -53,7 +83,7 @@ padding-left: 30px;
 .anchor-section-2{
     text-decoration: none;
     background-image: linear-gradient(to bottom right,orange, red);
-    padding: 14px 25px;
+    padding: 10px 20px;
     text-align: center;
     border-radius: 10px;
     color: white;
@@ -74,11 +104,26 @@ padding-left: 30px;
     display: inline-flex;
     padding: 30px;
     padding-right: 40px;
-    
+    text-align:left;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
     
 }
 .recipes-image img{
     width: 100%;
     border-radius: 10px;
-    border: 5px gray;
 }
+.section-four{
+    color: olive;
+}
+.last-section{
+    margin: auto;
+  width: 50%;
+  padding-left: 100px;
+}
+
+
