@@ -18,7 +18,7 @@ h3{
 section{
     display: flex;
     padding-left: 20px;
-    background-image: url(images/top-banner.png);
+    background-image: ;
     background-repeat: no-repeat;
     
 }
@@ -66,4 +66,19 @@ padding-left: 30px;
 }
 .short-color{
     color: olive;
+}
+.recipes-div{
+    text-align: center;
+}
+.recipes-image{
+    display: inline-flex;
+    padding: 30px;
+    padding-right: 40px;
+    
+    
+}
+.recipes-image img{
+    width: 100%;
+    border-radius: 10px;
+    border: 5px gray;
 }
